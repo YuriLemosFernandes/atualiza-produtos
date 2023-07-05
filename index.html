@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interação com APIs</title>
+</head>
+
+<body>
+    <h1>Interação com APIs</h1>
+    <h2>Requisição e Resposta</h2>
+
+    <div>
+        <p>
+            <spam>DENTRO</spam>
+        </p>
+        <spam>IRMAO P</spam>
+    </div>
+
+    <spam>FORA</spam>
+
+    <div id="caixa"></div>
+
+
+    
+    <script>
+
+        document.querySelector('div + spam').innerHTML = 'fora';
+        document.querySelector('div + spam').setAttribute('id', 'fora');
+        document.querySelector('div + spam').classList.add('fora');
+
+        const p = document.createElement('p');
+        p.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt enim accusamus, magnam saepe est iste sequi earum reprehenderit architecto nisi nulla ipsa praesentium exercitationem labore, in vitae voluptatum autem dolores?';
+        document.querySelector('#caixa').appendChild(p);
+
+
+
+    </script>
+</body>
+
+</html>
