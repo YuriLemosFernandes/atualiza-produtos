@@ -17,3 +17,7 @@ p1.innerHTML - 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deseru
 
 document.body.appendChild(h1);
 document.body.appendChild(h2);
+document.body.appendChild(h2);
+document.body.appendChild(h2);
+document.body.appendChild(h2);
+document.body.appendChild(h2);
